@@ -16,13 +16,24 @@ import math
 # n = input('number = ')
 n = 4
 
-a = [[0]*(int(math.sqrt(n)))]*(int(math.sqrt(n)))
+a = []
+i = 0 
+while i<math.sqrt(n):
+    a.append([])
+    i += 1
+
+
+for elem in a:
+    i = 0
+    while i<math.sqrt(n):
+        elem.append(0)
+        i += 1
 
 
 def result_list(a):
     for elem in a:
-        print (elem)
-result_list(a)
+        print (*elem)
+    
 
 i = 0
 j = -1
