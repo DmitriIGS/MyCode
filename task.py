@@ -29,6 +29,15 @@ for elem in a:
         elem.append(0)
         i += 1
 
+#a = [[0]*s for elem in range(s)]
+
+# while i<math.sqrt(n):
+#     a.append([])
+#     j = 0
+#     while j<math.sqrt(n):
+#         a[i].append(0)
+#         j += 1
+#     i += 1
 
 def result_list(a):
     for elem in a:
